@@ -35,15 +35,24 @@
   <body>
     <!-- Header -->
 
-    <header id="navbar">
-      <nav>
-        <div>
-          <img src="img/logo.png" alt="logo" id="logo" />
-          <img src="img/logo_white.png" alt="white-logo" id="white-logo" />
+    <header id="navbar" class="sticky top-0 z-50 duration-300">
+      <nav class="relative container flex justify-between items-center">
+        <div class="py-5">
+          <img src="img/logo.png" alt="logo" id="logo" class="w-10" />
+          <img
+            src="img/logo_white.png"
+            alt="white-logo"
+            id="white-logo"
+            class="w-10"
+            hidden
+          />
         </div>
 
-        <div id="nav-menu">
-          <ul>
+        <div
+          id="nav-menu"
+          class="absolute top-0 left-0 bg-primaryColor w-full py-24"
+        >
+          <ul class="flex flex-col items-center text-center gap-8">
             <li>
               <a href="#services" class="nav-link">Services</a>
             </li>
@@ -69,8 +78,8 @@
             </li>
 
             <li>
-              <button>
-                <span>Hire Me!</span>
+              <button class="btn ml-10">
+                <span class="z-10">Hire Me!</span>
               </button>
             </li>
           </ul>
