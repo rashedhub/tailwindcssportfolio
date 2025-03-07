@@ -50,6 +50,27 @@ function lightMode() {
 }
 
 /*~~~~~~~~~~~~~~~ TABS ~~~~~~~~~~~~~~~*/
+let tabs = document.querySelectorAll(".tab");
+let indicator = document.querySelector(".indicator");
+
+indicator.style.width = tabs[0].getBoundingClientRect().width + "px";
+indicator.style.left =
+  tabs[0].getBoundingClientRect().left -
+  tabs[0].parentElement.getBoundingClientRect().left +
+  "px";
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    indicator.style.width = tab.getBoundingClientRect().width + "px";
+    indicator.style.left =
+      tab.getBoundingClientRect().left -
+      tab.parentElement.getBoundingClientRect().left +
+      "px";
+
+    tabs.forEach((t) => t.classList.remove("text-whiteColor"));
+    tab.classList.add("text-whiteColor");
+  });
+});
 
 /*~~~~~~~~~~~~~~~ CHANGE BACKGROUND HEADER ~~~~~~~~~~~~~~~*/
 

@@ -92,4 +92,9 @@
   .service_item:hover div i {
     @apply text-whiteColor -rotate-90;
   }
+
+  /* My Recent Works */
+  .indicator {
+    transition: left 0.4s;
+  }
 }
