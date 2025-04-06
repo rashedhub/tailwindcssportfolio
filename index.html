@@ -57,15 +57,15 @@
             class="flex flex-col items-center text-center gap-8 lg:flex-row lg:gap-5"
           >
             <li>
-              <a href="#services" class="nav-link">Services</a>
+              <a href="#quality_services" class="nav-link">Services</a>
             </li>
 
             <li>
-              <a href="#works" class="nav-link">Works</a>
+              <a href="#recent_works" class="nav-link">Works</a>
             </li>
 
             <li>
-              <a href="#resume" class="nav-link">Resume</a>
+              <a href="#exp_edu" class="nav-link">Resume</a>
             </li>
 
             <li>
@@ -73,7 +73,7 @@
             </li>
 
             <li>
-              <a href="#quality_services" class="nav-link">Blogs</a>
+              <a href="#blogs" class="nav-link">Blogs</a>
             </li>
 
             <li>
@@ -107,40 +107,84 @@
         </div>
       </nav>
     </header>
+    <main>
+      <!-- Hero Section -->
 
-    <!-- Hero Section -->
-
-    <section id="hero" class="relative py-5">
-      <!-- blob -->
-      <div
-        class="absolute right-0 top-[-20%] w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
-      ></div>
-
-      <div class="container">
-        <!-- bg image -->
+      <section id="hero" class="relative py-5">
+        <!-- blob -->
         <div
-          class="hidden md:block absolute top-0 left-[30%] lg-left-[30%] animate-scaleAnimation"
-        >
-          <p
-            class="font-Londrina text-[400px] lg:text-[450px] text-primaryColorLight uppercase -z-10 opacity-5"
+          class="absolute right-0 top-[-20%] w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
+        ></div>
+
+        <div class="container">
+          <!-- bg image -->
+          <div
+            class="hidden md:block absolute top-0 left-[30%] lg-left-[30%] animate-scaleAnimation"
           >
-            hi
-          </p>
-        </div>
+            <p
+              class="font-Londrina text-[400px] lg:text-[450px] text-primaryColorLight uppercase -z-10 opacity-5"
+            >
+              hi
+            </p>
+          </div>
 
-        <!-- hero content -->
-        <div class="flex items-center gap-5">
-          <div class="space-y-2 md:w-1/2">
-            <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold">
-              I am Rashed
-            </h3>
-            <h1>
-              <span class="title">Web Developer +</span>
-              <br />
-              <span class="title">UI Designer</span>
-            </h1>
+          <!-- hero content -->
+          <div class="flex items-center gap-5">
+            <div class="space-y-2 md:w-1/2">
+              <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold">
+                I am Rashed
+              </h3>
+              <h1>
+                <span class="title">Web Developer +</span>
+                <br />
+                <span class="title">UI Designer</span>
+              </h1>
 
-            <div class="relative flex justify-center md:hidden">
+              <div class="relative flex justify-center md:hidden">
+                <!-- blob -->
+                <div
+                  class="absolute left-0 bottom-0 w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
+                ></div>
+
+                <img
+                  src="img/person.jpg"
+                  alt="person"
+                  class="my-10 max-w-full lg:max-w-[80%] duration-300 origin-center rotate-[4.5deg] border-2 border-primaryColor rounded-[38px] hover:rotate-0 hover:border-primaryColorLight"
+                />
+              </div>
+
+              <p class="max-w-xl text-xl pb-5">
+                I dissect intricate user experience issues to craft solutions
+                focused on integrity, linking billions of individuals.
+              </p>
+
+              <div class="flex items-center flex-wrap gap-5">
+                <button class="btn_outline">
+                  Download CV <i class="fa-solid fa-download"></i>
+                </button>
+
+                <div class="flex items-center gap-5">
+                  <div class="social-icon">
+                    <i class="fa-brands fa-linkedin z-10"></i>
+                  </div>
+
+                  <div class="social-icon">
+                    <i class="fa-brands fa-youtube z-10"></i>
+                  </div>
+
+                  <div class="social-icon">
+                    <i class="fa-brands fa-github z-10"></i>
+                  </div>
+
+                  <div class="social-icon">
+                    <i class="fa-brands fa-facebook z-10"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- hero image -->
+            <div class="relative hidden md:flex justify-center">
               <!-- blob -->
               <div
                 class="absolute left-0 bottom-0 w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
@@ -152,584 +196,806 @@
                 class="my-10 max-w-full lg:max-w-[80%] duration-300 origin-center rotate-[4.5deg] border-2 border-primaryColor rounded-[38px] hover:rotate-0 hover:border-primaryColorLight"
               />
             </div>
+          </div>
 
-            <p class="max-w-xl text-xl pb-5">
-              I dissect intricate user experience issues to craft solutions
-              focused on integrity, linking billions of individuals.
+          <!-- hero footer -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-10"
+          >
+            <div class="flex items-center gap-3">
+              <p class="text-4xl lg:text-6xl font-bold">12</p>
+              <p>
+                Years of <br />
+                Experience
+              </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <p class="text-4xl lg:text-6xl font-bold">50+</p>
+              <p>
+                Project <br />
+                Completed
+              </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <p class="text-4xl lg:text-6xl font-bold">1.5k</p>
+              <p>
+                Happy <br />
+                Clients
+              </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <p class="text-4xl lg:text-6xl font-bold">12</p>
+              <p>
+                Years of <br />
+                Experience
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Quality Services -->
+      <section
+        id="quality_services"
+        class="bg-sectionColor dark:bg-darkSectionColor"
+      >
+        <div class="container">
+          <div class="flex flex-col items-center gap-5 text-center">
+            <h2 class="subtitle">My Quality Services</h2>
+            <p class="max-w-2xl">
+              We transform your ideas and desires into a distinctive web project
+              that inspires both you and your customers.
             </p>
+          </div>
 
-            <div class="flex items-center flex-wrap gap-5">
-              <button class="btn_outline">
-                Download CV <i class="fa-solid fa-download"></i>
-              </button>
+          <!-- list section -->
+          <div class="my-10">
+            <!-- item-1 -->
+            <div class="service_item">
+              <div
+                class="text-xl font-bold flex items-center gap-3 md:text2xl md:w-[40%]"
+              >
+                <p class="text-primaryColorLight hover:text-whiteColor">01</p>
+                <p>Branding Design</p>
+              </div>
 
-              <div class="flex items-center gap-5">
-                <div class="social-icon">
-                  <i class="fa-brands fa-linkedin z-10"></i>
-                </div>
+              <div class="ml-auto text-2xl origin-center rotate-45">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div>
+                <p>
+                  I dissect complex user experience challenges to devise
+                  solutions that prioritize integrity.
+                </p>
+              </div>
+            </div>
 
-                <div class="social-icon">
-                  <i class="fa-brands fa-youtube z-10"></i>
-                </div>
+            <!-- item-2 -->
+            <div class="service_item">
+              <div class="text-xl font-bold flex items-center gap-3">
+                <p class="text-primaryColorLight hover:text-whiteColor">02</p>
+                <p>Web Design</p>
+              </div>
 
-                <div class="social-icon">
-                  <i class="fa-brands fa-github z-10"></i>
-                </div>
+              <div class="ml-auto text-2xl origin-center rotate-45">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div>
+                <p>
+                  I dissect complex user experience challenges to devise
+                  solutions that prioritize integrity.
+                </p>
+              </div>
+            </div>
 
-                <div class="social-icon">
-                  <i class="fa-brands fa-facebook z-10"></i>
-                </div>
+            <!-- item-3 -->
+            <div class="service_item">
+              <div class="text-xl font-bold flex items-center gap-3">
+                <p class="text-primaryColorLight hover:text-whiteColor">03</p>
+                <p>UI/UX Design</p>
+              </div>
+
+              <div class="ml-auto text-2xl origin-center rotate-45">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div>
+                <p>
+                  I dissect complex user experience challenges to devise
+                  solutions that prioritize integrity.
+                </p>
+              </div>
+            </div>
+
+            <!-- item-4 -->
+            <div class="service_item">
+              <div class="text-xl font-bold flex items-center gap-3">
+                <p class="text-primaryColorLight hover:text-whiteColor">04</p>
+                <p>Graphics Design</p>
+              </div>
+
+              <div class="ml-auto text-2xl origin-center rotate-45">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div>
+                <p>
+                  I dissect complex user experience challenges to devise
+                  solutions that prioritize integrity.
+                </p>
               </div>
             </div>
           </div>
-
-          <!-- hero image -->
-          <div class="relative hidden md:flex justify-center">
-            <!-- blob -->
-            <div
-              class="absolute left-0 bottom-0 w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
-            ></div>
-
-            <img
-              src="img/person.jpg"
-              alt="person"
-              class="my-10 max-w-full lg:max-w-[80%] duration-300 origin-center rotate-[4.5deg] border-2 border-primaryColor rounded-[38px] hover:rotate-0 hover:border-primaryColorLight"
-            />
-          </div>
         </div>
-
-        <!-- hero footer -->
-        <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-10"
-        >
-          <div class="flex items-center gap-3">
-            <p class="text-4xl lg:text-6xl font-bold">12</p>
-            <p>
-              Years of <br />
-              Experience
-            </p>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <p class="text-4xl lg:text-6xl font-bold">50+</p>
-            <p>
-              Project <br />
-              Completed
-            </p>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <p class="text-4xl lg:text-6xl font-bold">1.5k</p>
-            <p>
-              Happy <br />
-              Clients
-            </p>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <p class="text-4xl lg:text-6xl font-bold">12</p>
-            <p>
-              Years of <br />
-              Experience
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- My Quality Services -->
-    <section
-      id="quality_services"
-      class="bg-sectionColor dark:bg-darkSectionColor"
-    >
-      <div class="container">
+      </section>
+      <!-- My Recent Works -->
+      <section id="recent_works" class="container">
         <div class="flex flex-col items-center gap-5 text-center">
-          <h2 class="subtitle">My Quality Services</h2>
+          <h2 class="subtitle">My Recent Works</h2>
           <p class="max-w-2xl">
             We transform your ideas and desires into a distinctive web project
             that inspires both you and your customers.
           </p>
         </div>
 
-        <!-- list section -->
-        <div class="my-10">
-          <!-- item-1 -->
-          <div class="service_item">
-            <div
-              class="text-xl font-bold flex items-center gap-3 md:text2xl md:w-[40%]"
-            >
-              <p class="text-primaryColorLight hover:text-whiteColor">01</p>
-              <p>Branding Design</p>
-            </div>
-
-            <div class="ml-auto text-2xl origin-center rotate-45">
-              <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-            <div>
-              <p>
-                I dissect complex user experience challenges to devise solutions
-                that prioritize integrity.
-              </p>
-            </div>
-          </div>
-
-          <!-- item-2 -->
-          <div class="service_item">
-            <div class="text-xl font-bold flex items-center gap-3">
-              <p class="text-primaryColorLight hover:text-whiteColor">02</p>
-              <p>Web Design</p>
-            </div>
-
-            <div class="ml-auto text-2xl origin-center rotate-45">
-              <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-            <div>
-              <p>
-                I dissect complex user experience challenges to devise solutions
-                that prioritize integrity.
-              </p>
-            </div>
-          </div>
-
-          <!-- item-3 -->
-          <div class="service_item">
-            <div class="text-xl font-bold flex items-center gap-3">
-              <p class="text-primaryColorLight hover:text-whiteColor">03</p>
-              <p>UI/UX Design</p>
-            </div>
-
-            <div class="ml-auto text-2xl origin-center rotate-45">
-              <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-            <div>
-              <p>
-                I dissect complex user experience challenges to devise solutions
-                that prioritize integrity.
-              </p>
-            </div>
-          </div>
-
-          <!-- item-4 -->
-          <div class="service_item">
-            <div class="text-xl font-bold flex items-center gap-3">
-              <p class="text-primaryColorLight hover:text-whiteColor">04</p>
-              <p>Graphics Design</p>
-            </div>
-
-            <div class="ml-auto text-2xl origin-center rotate-45">
-              <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-            <div>
-              <p>
-                I dissect complex user experience challenges to devise solutions
-                that prioritize integrity.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- My Recent Works -->
-    <section id="recent_works" class="container">
-      <div class="flex flex-col items-center gap-5 text-center">
-        <h2 class="subtitle">My Recent Works</h2>
-        <p class="max-w-2xl">
-          We transform your ideas and desires into a distinctive web project
-          that inspires both you and your customers.
-        </p>
-      </div>
-
-      <div
-        class="relative w-max mx-auto my-10 h-10 text-xs grid grid-cols-4 items-center px-[3px] rounded-full bg-sectionColor dark:bg-darkSectionColor border border-primaryColor overflow-hidden transition md:h-12 md:text-base"
-      >
-        <!-- indicator -->
         <div
-          class="indicator absolute h-9 my-auto top-0 bottom-0 left-0 rounded-full bg-primaryColorLight md:h-11"
-        ></div>
-        <button
-          class="tab relative block h-8 px-3 rounded-full text-whiteColor md:h-10 md:px-6"
-          data-tabs="all"
+          class="relative w-max mx-auto my-10 h-10 text-xs grid grid-cols-4 items-center px-[3px] rounded-full bg-sectionColor dark:bg-darkSectionColor border border-primaryColor overflow-hidden transition md:h-12 md:text-base"
         >
-          All
-        </button>
-        <button
-          class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
-          data-tabs="uiux"
-        >
-          UX/UI
-        </button>
-        <button
-          class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
-          data-tabs="branding"
-        >
-          Branding
-        </button>
-        <button
-          class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
-          data-tabs="apps"
-        >
-          Apps
-        </button>
-      </div>
+          <!-- indicator -->
+          <div
+            class="indicator absolute h-9 my-auto top-0 bottom-0 left-0 rounded-full bg-primaryColorLight md:h-11"
+          ></div>
+          <button
+            class="tab relative block h-8 px-3 rounded-full text-whiteColor md:h-10 md:px-6"
+            data-tabs="all"
+          >
+            All
+          </button>
+          <button
+            class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
+            data-tabs="uiux"
+          >
+            UX/UI
+          </button>
+          <button
+            class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
+            data-tabs="branding"
+          >
+            Branding
+          </button>
+          <button
+            class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
+            data-tabs="apps"
+          >
+            Apps
+          </button>
+        </div>
 
-      <div class="mt-6 relative rounded-3xl">
-        <!-- blob -->
+        <div class="mt-6 relative rounded-3xl">
+          <!-- blob -->
+          <div
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
+          ></div>
+
+          <ul class="grid grid-cols-1 gap-5 lg:gap-10 md:grid-cols-2">
+            <!-- uiux -->
+            <li
+              class="work_card uiux relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
+            >
+              <img src="img/project-1.jpg" alt="recent works" class="w-full" />
+
+              <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+                <div
+                  class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                >
+                  <div>
+                    <p class="text-2xl font-bold lg:text-3xl">Design</p>
+                    <p>I analyze intricate user experience</p>
+                  </div>
+
+                  <div class="text-2xl rotate-45">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li
+              class="work_card uiux relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
+            >
+              <img src="img/project-2.jpg" alt="recent works" class="w-full" />
+
+              <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+                <div
+                  class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                >
+                  <div>
+                    <p class="text-2xl font-bold lg:text-3xl">Design</p>
+                    <p>I analyze intricate user experience</p>
+                  </div>
+
+                  <div class="text-2xl rotate-45">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li
+              class="work_card uiux relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
+            >
+              <img src="img/project-3.jpg" alt="recent works" class="w-full" />
+
+              <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+                <div
+                  class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                >
+                  <div>
+                    <p class="text-2xl font-bold lg:text-3xl">Design</p>
+                    <p>I analyze intricate user experience</p>
+                  </div>
+
+                  <div class="text-2xl rotate-45">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- branding -->
+
+            <li
+              class="work_card branding relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
+            >
+              <img src="img/project-4.jpg" alt="recent works" class="w-full" />
+
+              <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+                <div
+                  class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                >
+                  <div>
+                    <p class="text-2xl font-bold lg:text-3xl">Design</p>
+                    <p>I analyze intricate user experience</p>
+                  </div>
+
+                  <div class="text-2xl rotate-45">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- app -->
+
+            <li
+              class="work_card app relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
+            >
+              <img src="img/project-5.jpg" alt="recent works" class="w-full" />
+
+              <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+                <div
+                  class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                >
+                  <div>
+                    <p class="text-2xl font-bold lg:text-3xl">Design</p>
+                    <p>I analyze intricate user experience</p>
+                  </div>
+
+                  <div class="text-2xl rotate-45">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Experience & Education -->
+
+      <section id="exp_edu" class="bg-sectionColor dark:bg-darkSectionColor">
+        <div class="container w-full grid grid-cols-1 md:grid-cols-2 gap-10">
+          <!-- experience -->
+          <div>
+            <div class="flex items-center gap-3">
+              <div
+                class="text-2xl text-primaryColorLight md:text-3xl lg:text-4xl"
+              >
+                <i class="fa-solid fa-medal"></i>
+              </div>
+
+              <h2 class="subtitle">Experience</h2>
+            </div>
+
+            <div class="my-10 space-y-5 md:space-y-10">
+              <!-- card 1 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2022-Present
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  Lead Developer
+                </p>
+                <p>Blockdots, London</p>
+              </div>
+
+              <!-- card 2 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2021-2022
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  full stack web developer
+                </p>
+                <p>Parsons, The new school</p>
+              </div>
+
+              <!-- card 3 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2020-2021
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  ui designer
+                </p>
+                <p>house of life, Leeds</p>
+              </div>
+
+              <!-- card 4 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2022-Present
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  junior graphics designer
+                </p>
+                <p>Theme Junction, Bursa</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- education -->
+          <div>
+            <div class="flex items-center gap-3">
+              <div
+                class="text-2xl text-primaryColorLight md:text-3xl lg:text-4xl"
+              >
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+
+              <h2 class="subtitle">Education</h2>
+            </div>
+
+            <div class="my-10 space-y-5 md:space-y-10">
+              <!-- card 1 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2020-2023
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  programming course
+                </p>
+                <p>Harverd University</p>
+              </div>
+
+              <!-- card 2 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2022-Present
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  graphic design course
+                </p>
+                <p>University of Denmark</p>
+              </div>
+
+              <!-- card 3 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2016-2020
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  Graphic Design Course
+                </p>
+                <p>University of California</p>
+              </div>
+
+              <!-- card 4 -->
+              <div
+                class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
+              >
+                <p class="text-primaryColorLight text-sm font-bold pb-3">
+                  2010-2011
+                </p>
+                <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
+                  Design & Technology
+                </p>
+                <p>Parsons, The New School</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Skills -->
+
+      <section class="container" id="skills">
+        <div class="flex flex-col items-center gap-5 text-center">
+          <h2 class="subtitle">My Skills</h2>
+          <p class="max-w-2xl">
+            We transform your ideas and desires into a distinctive web project
+            that inspires both you and your customers.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-5 md:gap-10 mt-10">
+          <!-- figma icon -->
+          <div class="skills_card max-w-44 w-full">
+            <div
+              class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
+            >
+              <img src="img/figma.svg" alt="figma" class="max-w-16" />
+              <p class="text-2xl font-bold text-primaryColorLight">92%</p>
+            </div>
+            <p class="text-center text-primaryColorLight mt-3 capitalize">
+              figma
+            </p>
+          </div>
+
+          <!-- sketch icon -->
+          <div class="skills_card max-w-44 w-full">
+            <div
+              class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
+            >
+              <img src="img/sketch.svg" alt="sketch" class="max-w-16" />
+              <p class="text-2xl font-bold text-primaryColorLight">92%</p>
+            </div>
+            <p class="text-center text-primaryColorLight mt-3 capitalize">
+              sketch
+            </p>
+          </div>
+
+          <!-- xd icon -->
+          <div class="skills_card max-w-44 w-full">
+            <div
+              class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
+            >
+              <img src="img/xd.svg" alt="xd" class="max-w-16" />
+              <p class="text-2xl font-bold text-primaryColorLight">92%</p>
+            </div>
+            <p class="text-center text-primaryColorLight mt-3 capitalize">xd</p>
+          </div>
+
+          <!-- wordpress icon -->
+          <div class="skills_card max-w-44 w-full">
+            <div
+              class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
+            >
+              <img src="img/wp.svg" alt="wordpress" class="max-w-16" />
+              <p class="text-2xl font-bold text-primaryColorLight">92%</p>
+            </div>
+            <p class="text-center text-primaryColorLight mt-3 capitalize">
+              wordpress
+            </p>
+          </div>
+
+          <!-- react icon -->
+          <div class="skills_card max-w-44 w-full">
+            <div
+              class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
+            >
+              <img src="img/react.svg" alt="react" class="max-w-16" />
+              <p class="text-2xl font-bold text-primaryColorLight">92%</p>
+            </div>
+            <p class="text-center text-primaryColorLight mt-3 capitalize">
+              react
+            </p>
+          </div>
+
+          <!-- javaScript icon -->
+          <div class="skills_card max-w-44 w-full">
+            <div
+              class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
+            >
+              <img src="img/js.svg" alt="javaScript" class="max-w-16" />
+              <p class="text-2xl font-bold text-primaryColorLight">92%</p>
+            </div>
+            <p class="text-center text-primaryColorLight mt-3 capitalize">
+              javaScript
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recent Blogs -->
+
+      <section id="blogs" class="bg-sectionColor dark:bg-darkSectionColor">
+        <div class="container">
+          <div class="flex flex-col items-center gap-5 text-center">
+            <h2 class="subtitle">Recent Blogs</h2>
+            <p class="max-w-2xl">
+              We transform your ideas and desires into a distinctive web project
+              that inspires both you and your customers.
+            </p>
+          </div>
+
+          <div
+            class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 px-5"
+          >
+            <!-- blog card 1 -->
+            <div
+              class="blog_card relative overflow-hidden rounded-3xl cursor-pointer"
+            >
+              <img src="img/blog-1.jpg" alt="recent blog" />
+              <p
+                class="absolute top-3 left-3 uppercase text-sm bg-primaryColorLight text-whiteColor py-1 px-3 rounded-full"
+              >
+                tutorial
+              </p>
+              <div
+                class="blog_card_info absolute left-0 right-0 bottom-0 bg-whiteColor dark:bg-primaryColor mx-4 my-3 rounded-2xl space-y-1 p-3"
+              >
+                <div
+                  class="text-primaryColorLight flex items-center gap-3 text-sm"
+                >
+                  <p><i class="fa-regular fa-calendar-days"></i>Oct 01, 2022</p>
+                  <p><i class="fa-regular fa-comments"></i>Comment (0)</p>
+                </div>
+
+                <p class="text-xl font-bold capitalize">
+                  top 10 ui ux designers
+                </p>
+              </div>
+            </div>
+
+            <!-- blog card 2 -->
+            <div
+              class="blog_card relative overflow-hidden rounded-3xl cursor-pointer"
+            >
+              <img src="img/blog-2.jpg" alt="recent blog" />
+              <p
+                class="absolute top-3 left-3 uppercase text-sm bg-primaryColorLight text-whiteColor py-1 px-3 rounded-full"
+              >
+                tips
+              </p>
+              <div
+                class="blog_card_info absolute left-0 right-0 bottom-0 bg-whiteColor dark:bg-primaryColor mx-4 my-3 rounded-2xl space-y-1 p-3"
+              >
+                <div
+                  class="text-primaryColorLight flex items-center gap-3 text-sm"
+                >
+                  <p><i class="fa-regular fa-calendar-days"></i>Oct 01, 2022</p>
+                  <p><i class="fa-regular fa-comments"></i>Comment (0)</p>
+                </div>
+
+                <p class="text-xl font-bold capitalize">
+                  App Development Guides
+                </p>
+              </div>
+            </div>
+
+            <!-- blog card 3 -->
+            <div
+              class="blog_card relative overflow-hidden rounded-3xl cursor-pointer"
+            >
+              <img src="img/blog-3.jpg" alt="recent blog" />
+              <p
+                class="absolute top-3 left-3 uppercase text-sm bg-primaryColorLight text-whiteColor py-1 px-3 rounded-full"
+              >
+                freebies
+              </p>
+              <div
+                class="blog_card_info absolute left-0 right-0 bottom-0 bg-whiteColor dark:bg-primaryColor mx-4 my-3 rounded-2xl space-y-1 p-3"
+              >
+                <div
+                  class="text-primaryColorLight flex items-center gap-3 text-sm"
+                >
+                  <p><i class="fa-regular fa-calendar-days"></i>Oct 01, 2022</p>
+                  <p><i class="fa-regular fa-comments"></i>Comment (0)</p>
+                </div>
+
+                <p class="text-xl font-bold capitalize">
+                  Learn Graphic Design Free
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="container" id="contact">
         <div
-          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50"
-        ></div>
-
-        <ul class="grid grid-cols-1 gap-5 lg:gap-10 md:grid-cols-2">
-          <!-- uiux -->
-          <li
-            class="work_card uiux relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
-          >
-            <img src="img/project-1.jpg" alt="recent works" class="w-full" />
-
-            <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+          class="flex flex-col md:flex-row-reverse gap-16 md:gap-5 md:items-center"
+        >
+          <!-- content -->
+          <div class="flex-1 space-y-7 md:space-y-10 lg:pl-20 xl:pl-40">
+            <div class="flex items-start gap-4">
               <div
-                class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                class="text-whiteColor bg-gradient-to-b from-primaryColor to-primaryColorLight h-10 w-10 lg:h-14 lg:w-14 rounded-full grid place-items-center"
               >
-                <div>
-                  <p class="text-2xl font-bold lg:text-3xl">Design</p>
-                  <p>I analyze intricate user experience</p>
-                </div>
-
-                <div class="text-2xl rotate-45">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </div>
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="space-y-1">
+                <p class="text-sm">Phone</p>
+                <p
+                  class="font-bold hover:text-primaryColorLight duration-300 cursor-pointer"
+                >
+                  +880 1680 089 806
+                </p>
               </div>
             </div>
-          </li>
 
-          <li
-            class="work_card uiux relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
-          >
-            <img src="img/project-2.jpg" alt="recent works" class="w-full" />
-
-            <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+            <div class="flex items-start gap-4">
               <div
-                class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                class="text-whiteColor bg-gradient-to-b from-primaryColor to-primaryColorLight h-10 w-10 lg:h-14 lg:w-14 rounded-full grid place-items-center"
               >
-                <div>
-                  <p class="text-2xl font-bold lg:text-3xl">Design</p>
-                  <p>I analyze intricate user experience</p>
-                </div>
-
-                <div class="text-2xl rotate-45">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </div>
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="space-y-1">
+                <p class="text-sm">Email</p>
+                <p
+                  class="font-bold hover:text-primaryColorLight duration-300 cursor-pointer"
+                >
+                  rashed.r05@gmail.com
+                </p>
               </div>
             </div>
-          </li>
 
-          <li
-            class="work_card uiux relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
-          >
-            <img src="img/project-3.jpg" alt="recent works" class="w-full" />
-
-            <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
+            <div class="flex items-start gap-4">
               <div
-                class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
+                class="text-whiteColor bg-gradient-to-b from-primaryColor to-primaryColorLight h-10 w-10 lg:h-14 lg:w-14 rounded-full grid place-items-center"
               >
-                <div>
-                  <p class="text-2xl font-bold lg:text-3xl">Design</p>
-                  <p>I analyze intricate user experience</p>
-                </div>
-
-                <div class="text-2xl rotate-45">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </div>
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="space-y-1">
+                <p class="text-sm">Address</p>
+                <p
+                  class="font-bold hover:text-primaryColorLight duration-300 cursor-pointer"
+                >
+                  Sonir Akhra,<br />
+                  Dhaka 1236, Bangladesh
+                </p>
               </div>
             </div>
-          </li>
+          </div>
 
-          <!-- branding -->
+          <!-- contact Form -->
 
-          <li
-            class="work_card branding relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
+          <form
+            class="flex-1 bg-sectionColor dark:bg-darkSectionColor border border-primaryColor px-5 py-10 rounded-3xl space-y-3"
           >
-            <img src="img/project-4.jpg" alt="recent works" class="w-full" />
+            <!-- subtitle & description -->
+            <div class="flex flex-col">
+              <h2 class="subtitle">Let’s work together!</h2>
+              <p class="max-w-2xl py-3">
+                I create elegantly simple designs and code with passion. It's as
+                straightforward as that!
+              </p>
+            </div>
+            <div class="space-y-3 mt-7">
+              <div class="flex flex-col md:flex-row items-center gap-3">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  name="firstname"
+                  autocomplete="off"
+                />
 
-            <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
-              <div
-                class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
-              >
-                <div>
-                  <p class="text-2xl font-bold lg:text-3xl">Design</p>
-                  <p>I analyze intricate user experience</p>
-                </div>
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  name="lastname"
+                  autocomplete="off"
+                />
+              </div>
 
-                <div class="text-2xl rotate-45">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </div>
+              <div class="flex flex-col md:flex-row items-center gap-3">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  name="email"
+                  autocomplete="off"
+                />
+
+                <input
+                  type="phone"
+                  placeholder="phone number"
+                  name="phone"
+                  autocomplete="off"
+                />
               </div>
             </div>
-          </li>
 
-          <!-- app -->
+            <select>
+              <option selected>Choose a service</option>
+              <option value="Branding">Branding Design</option>
+              <option value="Web">Web Design</option>
+              <option value="UIUX">UI/UX Design</option>
+              <option value="App">App Design</option>
+            </select>
 
-          <li
-            class="work_card app relative bg-sectionColor dark:bg-darkSectionColor p-5 rounded-2xl border border-transparent hover:border-primaryColor duration-300 overflow-hidden lg:p-8"
-          >
-            <img src="img/project-5.jpg" alt="recent works" class="w-full" />
+            <div class="space-y-3">
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
 
-            <div class="absolute left-0 right-0 bottom-[-100%] p-5 lg:p-8">
-              <div
-                class="flex items-center justify-between bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor p-5 rounded-t-2xl"
-              >
-                <div>
-                  <p class="text-2xl font-bold lg:text-3xl">Design</p>
-                  <p>I analyze intricate user experience</p>
-                </div>
-
-                <div class="text-2xl rotate-45">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </div>
-              </div>
+              <button class="btn">
+                <span class="z-10">send message</span>
+              </button>
             </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- Experience & Education -->
-
-    <section id="exp_edu" class="bg-sectionColor dark:bg-darkSectionColor">
-      <div class="container w-full grid grid-cols-1 md:grid-cols-2 gap-10">
-        <!-- experience -->
-        <div>
-          <div class="flex items-center gap-3">
-            <div
-              class="text-2xl text-primaryColorLight md:text-3xl lg:text-4xl"
-            >
-              <i class="fa-solid fa-medal"></i>
-            </div>
-
-            <h2 class="subtitle">Experience</h2>
-          </div>
-
-          <div class="my-10 space-y-5 md:space-y-10">
-            <!-- card 1 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2022-Present
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                Lead Developer
-              </p>
-              <p>Blockdots, London</p>
-            </div>
-
-            <!-- card 2 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2021-2022
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                full stack web developer
-              </p>
-              <p>Parsons, The new school</p>
-            </div>
-
-            <!-- card 3 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2020-2021
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                ui designer
-              </p>
-              <p>house of life, Leeds</p>
-            </div>
-
-            <!-- card 4 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2022-Present
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                junior graphics designer
-              </p>
-              <p>Theme Junction, Bursa</p>
-            </div>
-          </div>
+          </form>
         </div>
-
-        <!-- education -->
-        <div>
-          <div class="flex items-center gap-3">
-            <div
-              class="text-2xl text-primaryColorLight md:text-3xl lg:text-4xl"
-            >
-              <i class="fa-solid fa-graduation-cap"></i>
-            </div>
-
-            <h2 class="subtitle">Education</h2>
-          </div>
-
-          <div class="my-10 space-y-5 md:space-y-10">
-            <!-- card 1 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2020-2023
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                programming course
-              </p>
-              <p>Harverd University</p>
-            </div>
-
-            <!-- card 2 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2022-Present
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                graphic design course
-              </p>
-              <p>University of Denmark</p>
-            </div>
-
-            <!-- card 3 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2016-2020
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                Graphic Design Course
-              </p>
-              <p>University of California</p>
-            </div>
-
-            <!-- card 4 -->
-            <div
-              class="exp_card exp_edu_card bg-whiteColor dark:bg-darkBodyColor p-5 rounded-2xl hover:bg-primaryColorLight dark:hover:bg-primaryColorLight duration-300"
-            >
-              <p class="text-primaryColorLight text-sm font-bold pb-3">
-                2010-2011
-              </p>
-              <p class="text-xl font-bold uppercase lg:text-2xl xl:text-3xl">
-                Design & Technology
-              </p>
-              <p>Parsons, The New School</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- My Skills -->
-
-    <section class="container" id="skills">
-      <div class="flex flex-col items-center gap-5 text-center">
-        <h2 class="subtitle">My Skills</h2>
-        <p class="max-w-2xl">
-          We transform your ideas and desires into a distinctive web project
-          that inspires both you and your customers.
-        </p>
-      </div>
-
-      <div class="flex flex-wrap justify-center gap-5 md:gap-10 mt-10">
-        <!-- figma icon -->
-        <div class="skills_card max-w-44 w-full">
-          <div
-            class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
-          >
-            <img src="img/figma.svg" alt="figma" class="max-w-16" />
-            <p class="text-2xl font-bold text-primaryColorLight">92%</p>
-          </div>
-          <p class="text-center text-primaryColorLight mt-3 capitalize">
-            figma
-          </p>
-        </div>
-
-        <!-- sketch icon -->
-        <div class="skills_card max-w-44 w-full">
-          <div
-            class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
-          >
-            <img src="img/sketch.svg" alt="sketch" class="max-w-16" />
-            <p class="text-2xl font-bold text-primaryColorLight">92%</p>
-          </div>
-          <p class="text-center text-primaryColorLight mt-3 capitalize">
-            sketch
-          </p>
-        </div>
-
-        <!-- xd icon -->
-        <div class="skills_card max-w-44 w-full">
-          <div
-            class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
-          >
-            <img src="img/xd.svg" alt="xd" class="max-w-16" />
-            <p class="text-2xl font-bold text-primaryColorLight">92%</p>
-          </div>
-          <p class="text-center text-primaryColorLight mt-3 capitalize">xd</p>
-        </div>
-
-        <!-- wordpress icon -->
-        <div class="skills_card max-w-44 w-full">
-          <div
-            class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
-          >
-            <img src="img/wp.svg" alt="wordpress" class="max-w-16" />
-            <p class="text-2xl font-bold text-primaryColorLight">92%</p>
-          </div>
-          <p class="text-center text-primaryColorLight mt-3 capitalize">
-            wordpress
-          </p>
-        </div>
-
-        <!-- react icon -->
-        <div class="skills_card max-w-44 w-full">
-          <div
-            class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
-          >
-            <img src="img/react.svg" alt="react" class="max-w-16" />
-            <p class="text-2xl font-bold text-primaryColorLight">92%</p>
-          </div>
-          <p class="text-center text-primaryColorLight mt-3 capitalize">
-            react
-          </p>
-        </div>
-
-        <!-- javaScript icon -->
-        <div class="skills_card max-w-44 w-full">
-          <div
-            class="bg-sectionColor dark:bg-darkSectionColor grid place-items-center px-4 py-7 rounded-3xl space-y-5 grayscale-[85%] hover:grayscale-0 hover:bg-primaryColor border border-transparent hover:border-primaryColorLight duration-300"
-          >
-            <img src="img/js.svg" alt="javaScript" class="max-w-16" />
-            <p class="text-2xl font-bold text-primaryColorLight">92%</p>
-          </div>
-          <p class="text-center text-primaryColorLight mt-3 capitalize">
-            javaScript
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Recent Blogs -->
-
-    <!-- Contact -->
-
+      </section>
+    </main>
     <!-- Footer -->
+
+    <footer id="footer" class="bg-sectionColor dark:bg-darkBodyColor py-10">
+      <div class="container flex flex-col items-center gap-5">
+        <div class="py-5">
+          <img src="img/logo.png" alt="footer logo" class="w-32" />
+        </div>
+
+        <div>
+          <ul class="flex flex-wrap justify-center items-center space-x-3">
+            <li>
+              <a href="#quality_services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#recent_works" class="nav-link">Works</a>
+            </li>
+
+            <li>
+              <a href="#exp_edu" class="nav-link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+
+            <li>
+              <a href="#blogs" class="nav-link">Blogs</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="text-primaryColorLight">
+          <p>
+            &copy; 2024 All rights reserved by
+            <span class="font-bold">R.hub</span>
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Scroll Up -->
 
-    <a href="#">
+    <a
+      href="#"
+      id="scroll-up"
+      class="fixed right-10 -bottom-1/2 bg-primaryColor px-4 py-2 rounded-full text-lg text-whiteColor z-50 hover:-translate-y-1 ease-in duration-200"
+    >
       <i class="fa-solid fa-arrow-up"></i>
     </a>
 

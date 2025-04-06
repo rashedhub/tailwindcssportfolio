@@ -16,6 +16,21 @@
   section {
     @apply py-16 md:pt-28 md:pb-20;
   }
+
+  input,
+  select,
+  textarea {
+    @apply w-full dark:bg-darkSectionColor border border-gray-800 px-4 py-3 rounded-lg;
+  }
+
+  input:focus,
+  input:active,
+  select:focus,
+  select:active,
+  textarea:focus,
+  textarea:active {
+    @apply outline-none border-primaryColorLight;
+  }
 }
 
 @layer components {
@@ -134,5 +149,28 @@
 
   .skills_card:hover img {
     @apply scale-110;
+  }
+
+  /* Recent Blog */
+
+  .blog_card img {
+    @apply w-full duration-300;
+  }
+
+  .blog_card:hover img {
+    @apply scale-110;
+  }
+
+  .blog_card div,
+  .blog_card .blog_card_info p {
+    @apply duration-300;
+  }
+
+  .blog_card:hover .blog_card_info {
+    @apply bg-primaryColorLight text-whiteColor;
+  }
+
+  .blog_card:hover .blog_card_info p {
+    @apply text-whiteColor;
   }
 }
