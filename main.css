@@ -35,13 +35,14 @@
 
 @layer components {
   .nav-link {
-    @apply relative font-bold;
+    @apply relative font-bold text-textColor lg:text-primaryColor dark:text-textColor;
   }
 
   .nav-link::before {
     @apply content-[''] absolute w-full h-[2px] bg-gradient-to-r from-primaryColorLight to-primaryColor -bottom-[5px] left-0 scale-x-0 transition-transform ease-in-out origin-right duration-500;
   }
 
+  .active::before,
   .nav-link:hover::before {
     @apply scale-x-100 origin-left;
   }
@@ -88,23 +89,23 @@
 
   /* My Quality Services */
 
-  .service_item {
+  .service__item {
     @apply flex flex-wrap items-center gap-3 px-4 py-8 border-b border-primaryColorLight hover:bg-primaryColorLight cursor-pointer duration-300;
   }
 
-  .service_item div p {
+  .service__item div p {
     @apply duration-300;
   }
 
-  .service_item:hover div p {
+  .service__item:hover div p {
     @apply text-whiteColor;
   }
 
-  .service_item div i {
+  .service__item div i {
     @apply duration-300;
   }
 
-  .service_item:hover div i {
+  .service__item:hover div i {
     @apply text-whiteColor -rotate-90;
   }
 

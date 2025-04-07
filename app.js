@@ -102,6 +102,35 @@ tabs.forEach((tab) => {
 
 /*~~~~~~~~~~~~~~~ CHANGE BACKGROUND HEADER ~~~~~~~~~~~~~~~*/
 
+const scrollHeader = () => {
+  const navbar = document.getElementById("navbar");
+  const aTag = document.querySelectorAll("nav ul li a");
+  const themeToggle = document.getElementById("theme-toggle");
+  const hamburger = document.getElementById("hamburger");
+  const logo = document.getElementById("logo");
+  const whiteLogo = document.getElementById("white-logo");
+
+  if (this.scrollY >= 200) {
+    navbar.classList.add("bg-primaryColor");
+    aTag.forEach((item) => {
+      item.classList.add("text-whiteColor");
+    });
+
+    themeToggle.classList.add("text-whiteColor");
+    hamburger.classList.add("text-whiteColor");
+  } else {
+    navbar.classList.remove("bg-primaryColor");
+    aTag.forEach((item) => {
+      item.classList.remove("text-whiteColor");
+    });
+
+    themeToggle.classList.remove("text-whiteColor");
+    hamburger.classList.remove("text-whiteColor");
+  }
+};
+
+window.addEventListener("scroll", scrollHeader);
+
 /*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
 
 const scrollup = () => {
@@ -120,4 +149,64 @@ window.addEventListener("scroll", scrollup);
 
 /*~~~~~~~~~~~~~~~ SCROLL SECTIONS ACTIVE LINK ~~~~~~~~~~~~~~~*/
 
+const activeLink = () => {
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  let current = "hero";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+
+    if (this.scrollY >= sectionTop - 60) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach((item) => {
+    item.classList.remove("active");
+    if (item.href.includes(current)) {
+      item.classList.add("active");
+    }
+  });
+};
+
+window.addEventListener("scroll", activeLink);
+
 /*~~~~~~~~~~~~~~~ SCROLL REVEAL ANIMATION ~~~~~~~~~~~~~~~*/
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+});
+
+sr.reveal(".hero__image");
+sr.reveal(".hero__content", { origin: "bottom" });
+sr.reveal(".hero__footer", { origin: "bottom", delay: 1200 });
+
+sr.reveal(".service__top", { origin: "bottom" });
+sr.reveal(".service__item", { origin: "bottom", interval: 300 });
+
+sr.reveal(".recent_works_top", { origin: "bottom" });
+sr.reveal(".recent_works_tabs", { origin: "bottom", delay: 800 });
+sr.reveal(".work_card", { origin: "bottom", delay: 1200 });
+
+sr.reveal(".exp_top", { origin: "top" });
+sr.reveal(".exp_card", { origin: "left", interval: 300 });
+
+sr.reveal(".edu_top", { origin: "top" });
+sr.reveal(".edu_card", { origin: "right", interval: 300 });
+
+sr.reveal(".exp_top", { origin: "top" });
+sr.reveal(".exp_card", { origin: "left", interval: 300 });
+
+sr.reveal(".skills_top", { origin: "bottom" });
+sr.reveal(".skills_card", { origin: "bottom", interval: 300 });
+
+sr.reveal(".blog_top", { origin: "top" });
+sr.reveal(".blog_card", { origin: "top", interval: 300 });
+
+sr.reveal(".contact_form", { origin: "left" });
+sr.reveal(".contact_item", { origin: "right", interval: 300 });
